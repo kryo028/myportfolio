@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name= "description" content= "RYOのポートフォリオサイトです。">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+	<div class="container-fluid">
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+       <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+					<a class="nav-link link" href="#">TOP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link link" href="#Profile">PROFILE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link link" href="#Skill">SKILL</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link link" href="#Works">WORKS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link link" href="#Contact">Connect</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--- TOP -->
+<div class="container-fluid top">
+	<div class="row jumbotron height">
+		<div class="col-12 jumbotron-read">
+      <h1 class="display-4">Portfolio</h1>
+      <p class= "jumbotron-p">Web Engineer</p>
+		</div>
+    <div class="col-12 jumbotron-btn">
+			<a href="#Profile" class="link"><button type="button" class="btn btn-primary btn-xl">Who's ME?</button></a>
+		</div>
+	</div>
+</div >
+
+<!--- PROFILE -->
+<div class="container-fluid " id="Profile">
+	<div class="row profile height">
+    <div class= "col-lg-10 mx-auto">
+		<div class="col-lg-12 head">
+      <h1 class="display-4">PROFILE</h1>
+    </div>
+    <div class="row two-columns">
+    <div class="col-lg-6 two-column1">
+      <span class="my-5 float-left">
+        <img src= "img/faceimage.jpg" class="img-fluid">
+      </span>
+		</div>
+    <div class="col-lg-6 mx-auto  two-column2">
+			<p class="mb-5 text-left">  はじめまして。平成2年生まれの29歳エンジニア志望のりょうと申します。社会人歴（医療業界）5年目です。<br>
+        薬剤師として働いている中で他のスキルも身につけたいと思い独学開始。HTML、CSS、Rubyと学んでいる中でwebアプリを作る楽しさやもっと実用的なモノを作ってみたいという気持ちがでてきました。また、今後薬剤師の業務効率化等にも生かせればと思っています。<br>
+        現在は独学による学習と就職活動中です。(2020年5月現在)</p>  
+    </div>
+    </div>
+    </div>
+	</div>
+</div>
+
+<!--- SKILL -->
+<div class="container-fluid" id="Skill">
+	<div class="row skill height">
+    <div class= "col-lg-8 mx-auto">
+		<div class="col-lg-12 head">
+      <h1 class="display-4">SKILL</h1>
+    </div>
+    <div class="row ">
+    <div class="col-lg-12 skill-main">
+      <span >
+        <ul>
+					<li>言語・・・HTML, CSS, JavaScript, jQuery, Ruby, SQL</li>
+					<li>フレームワーク・・・Ruby on rails</li>
+					<li>ツール・・・Git, AWS, Vagrant, VirtualBox</li>
+					<li>OS・・・Linux, Windows</li>
+				</ul>
+      </span>
+		</div>
+    </div>
+    </div>
+	</div>
+</div>
+	
+<!--- WORKS -->
+<div class="container-fluid" id="Works">
+	<div class="row works height">
+		<div class="col-lg-12 head">
+      <h1 class="display-4">WORKS</h1>
+    </div>
+		<div class="col-md-4">
+			<div class="card">
+			<img class="card-img-top" src="img/portfolio.png">
+				<div class="card-body">
+					<h4 class="card-title">ポートフォリオ</h4>
+					<p class="card-text">自分自身のポートフォリオサイトです。</p>
+					<p class="card-text">HTML/CSS/jquery/Bootstrap</p>
+					<a href="#" class="btn btn-outline-secondary">git hub</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/treasure.png">
+				
+				<div class="card-body">
+					<h4 class="card-title">Ruby on Rails ポートフォリオ</h4>
+					<p class="card-text">勉強投稿webアプリケーションです。</p>
+					<p class="card-text">HTML/CSS/jquery/Bootstrap/Ruby on Rails</p>
+					<a href="https://bitbucket.org/ryopharma/treasure_app1/src/master/" target="_blank" rel="noopener" class="btn btn-outline-secondary">Bitbucket</a>
+					<a href="https://treasure-app1.herokuapp.com/"  target="_blank" rel="noopener">サイトへ</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/bootstrap.png">
+				<div class="card-body">
+					<h4 class="card-title">Bootstrapポートフォリオ</h4>
+					<p class="card-text">Bootstrapのポートフォリオです。</p>
+					<p class="card-text">HTML/SCSS/bootstrap</p>
+					<a href="https://github.com/kryo028/bootstrap1" class="btn btn-outline-secondary" target="_blank" rel="noopener">git hub</a>
+					<a href=" https://kryo028.github.io/bootstrap1/"  target="_blank" rel="noopener">サイトへ</a>
+				</div>
+				<div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Connect -->
+<div class="container-fluid" id="Contact">
+	<div class="row text-center contact">
+		<div class= "col-lg-6 mx-auto">
+		<div class="col-lg-12 head">
+      <h1 class="display-4">CONTACT</h1>
+    </div>
+		<div class="col-12 contact-form">
+			<h5>何かありましたらtwitterのDMにてご連絡よろしくお願いします。</h5>
+			<div class="twitter-image">
+				<a href="https://twitter.com/@kawauso0287" target="_blank" rel="noopener"><i class="fab fa-twitter"></i>twitter </a>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer class="container-fluid">
+	<div class="row text-center footer">
+		<div class="col-12 link footer-link">
+			<a class="link" href="#Profile">PROFILE</a>
+			<a class="link" href="#Skill">SKILL</a>
+			<a class="link" href="#Works">WORKS</a>
+			<a class="link" href="#Contact">CONTACT</a>
+		</div>
+		<div class="col-lg-12 copyright">
+			<small>Copyright&copy;RYO. All Rights Reserved.</small>
+		</div>
+	</div>
+</footer>
+
+<!--- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="style.js"></script>
+</body>
+</html>
